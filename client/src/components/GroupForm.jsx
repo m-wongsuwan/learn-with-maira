@@ -55,7 +55,7 @@ export default function GroupForm() {
             />
             <span> + Add another? *placeholder*</span>
             <br />
-            <label htmlFor='members'>Members (String not appropriate for individuals who should have pages/docs, should eventually be able to search for or create docs for individuals to relate to the group):</label>
+            <label htmlFor='members'>Members: </label>
             <input 
                 type="text"
                 placeholder="Members"
@@ -67,7 +67,7 @@ export default function GroupForm() {
             />
             <span> + Add another? *placeholder*</span>
             <br />
-            <label htmlFor='members'>Influences (many of the same considerations as above):</label>
+            <label htmlFor='members'>Influences:</label>
             <input 
                 type="text"
                 placeholder="Influences"
@@ -80,6 +80,7 @@ export default function GroupForm() {
             <span> + Add another? *placeholder*</span>
             <br />
             <button type='submit'>Submit Group</button>
+            <h3 style={{padding: '20px'}}>Note that this form can successfully create a group document but doesn't conform to desired structure because the rules in place only enforce for expected keys in the expected col/doc structure.</h3>
         </form>
     )
 }
