@@ -1,11 +1,20 @@
 import './App.css';
-import GroupForm from './components/GroupForm';
+import EditGroup from './components/EditGroup';
+import GroupDisplay from './components/GroupDisplay';
+import IndividualDisplay from './components/IndividualDisplay';
+import SubmitGroup from './components/SubmitGroup';
+import SubmitIndividual from './components/SubmitIndividual';
+
 
 function App() {
   return (
     <div className="App">
       <h1>Test Page</h1>
-      <GroupForm />
+      <SubmitGroup />
+      <SubmitIndividual />
+      <GroupDisplay />
+      <EditGroup />
+      <IndividualDisplay />
     </div>
   );
 }
